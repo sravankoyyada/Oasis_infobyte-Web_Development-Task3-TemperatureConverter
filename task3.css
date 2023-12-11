@@ -1,0 +1,58 @@
+body{
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    margin:50px;
+    background-color: rgb(136, 230, 222)
+    
+   
+}
+.pic{
+    background-size: cover;
+    padding: 0px;
+    margin:0px;
+    background-image:url( https://t3.ftcdn.net/jpg/06/42/38/40/360_F_642384008_D1FJfRjB0pBzdBTLtYgdA4TAXEJ9DnH5.jpg);
+}
+
+.converter-container{
+    text-align:center;
+    width: 700px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: rgb(252, 210, 172);
+    box-shadow:0 0 10px rgba(0,0,0,1) ;
+    display:inline;
+}
+
+
+
+
+label{
+    display:block;
+    margin-top:10px;
+
+}
+
+input,select,button{
+    margin-top:5px;
+    margin-bottom:10px;
+
+}
+
+button{
+    padding:5px 10px;
+    cursor: pointer;
+}
+
+
+#result{
+   margin:20px 0px 0px 0px;
+    font-weight:bold;
+}
+
+
+
+
+
+
